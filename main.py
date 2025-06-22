@@ -5,7 +5,7 @@ from PIL import Image
 import io
 import json
 
-model = YOLO("model/best.pt")
+model = YOLO("https://oreppluscnn.onrender.com/model/best.pt")
 
 app = FastAPI()
 
